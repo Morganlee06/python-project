@@ -1,3 +1,4 @@
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,6 +15,8 @@ west_avrage = 706.5025817555938
 # overall south average
 middle_average = 691.4530120481927
 
+database = ['James', 'Thomas', 'Cartwright', 'Allison', 'Battle', 'Lennon', 'Benitez', 'Voyle', 'Osman', 'Weir', 'Rhodes', 'Sharples', 'Rees', 'Morgan', 'Malenczyk','Kirby', 'Nunez', 'Sweet', 'Edwards', 'Thomas', 'Bray', 'Alston', 'Wu', 'Penn', 'Storey', 'Miller', 'Allan', 'Travis', 'Clemons']
+
 # indavidual average fore people in london
 James = 722.096386
 Thomas = 693.108434
@@ -23,7 +26,7 @@ Battle = 691.036145
 Lennon = 694.216867
 Benitez = 614.831325
 
-London = {'James':722.096386, 'Thomas':693.108434, 'Cartwright':744.120482, 'Allison':636.301205,'Battle':691.036145,'Lennon':694.216867, 'Benitez':614.831325}
+
 
 # indavidual average fore people in Wales
 Voyle = 652
@@ -89,50 +92,70 @@ def london():
 def Jamesf():
     if James >= wales_avrage:
         print("Above")
+        print("James has " + str(James) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("James has " + str(James) + " and his region avrage is " + str(wales_avrage))
+
 
 def Thomasf():
     if Thomas >= wales_avrage:
         print("Above")
+        print("Thomas has " + str(Thomas) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("Thomas has " + str(Thomas) + " and his region avrage is " +  str(wales_avrage))
+
 
 def Cartwrightf():
     if Cartwright >= wales_avrage:
         print("Above")
+        print("Cartwright has " + str(Cartwright) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("Cartwright has " + str(Cartwright) + " and his region avrage is " + str(wales_avrage))
+
 
 def Allisonf():
     if Allison >= wales_avrage:
         print("Above")
+        print("Allison has " + str(Allison) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("Allison has " + str(Allison) + " and his region avrage is " + str(wales_avrage))
 
 def Battlef():
     if Battle >= wales_avrage:
         print("Above")
+        print("Battle has " + str(Battle) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("Battle has " + str(Battle) + " and his region avrage is " + str(wales_avrage))
 
 def Lennonf():
     if Lennon >= wales_avrage:
         print("Above")
+        print("Lennon has " + str(Lennon) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("Lennon has " + str(Lennon) + " and his region avrage is " + str(wales_avrage))
+
+
 def Benitezf():
     if Benitez >= wales_avrage:
         print("Above")
+        print("Benitez has " + str(Benitez) + " and his region avrage is " + str(wales_avrage))
 
     else:
         print("Below")
+        print("Benitez has " + str(Benitez) + " ands region avrage is " + str(wales_avrage))
+
 
  # ---------------------------------------------------------------------------------------------------------
 
@@ -164,39 +187,53 @@ def wales():
 
 
 def Voylef():
-    if Voyle >= wales_avrage:
+    if Voyle >= london_average:
         print("Above")
+        print("Voyle has " + str(Voyle) + " and there region average is " + str(london_average))
 
     else:
         print("Below")
+        print("Voyle has " + str(Voyle) + " and there region average is " + str(london_average))
 
 def Osmanf():
     if Osman >= london_average:
         print("Above")
+        print("Osman has " + str(Osman) + " and there region average is " + str(london_average))
 
     else:
         print("Below")
+        print("Osman has " + str(Osman) + " and there region average is " + str(london_average))
 
 def Weirf():
     if Weir >= london_average:
         print("Above")
+        print("Weir has " + str(Weir) + " and there region average is " + str(london_average))
 
     else:
         print("Below")
+        print("Weir has " + str(Weir) + " and there region average is " + str(london_average))
+
 
 def Rhodesf():
     if Rhodes >= london_average:
         print("Above")
+        print("Rhodes has " + str(Rhodes) + " and there region average is " + str(london_average))
+
 
     else:
         print("Below")
+        print("Rhodes has " + str(Rhodes) + " and there region average is " + str(london_average))
+
 
 def Sharplesf():
     if Sharples >= london_average:
         print("Above")
+        print("Sharples has " + str(Sharples) + " and there region average is " + str(london_average))
+
 
     else:
         print("Below")
+        print("Sharples has " + str(Sharples) + " and there region average is " + str(london_average))
 
 
 # --------------------------------------------------------------------------------------------------------------
@@ -230,44 +267,62 @@ def south():
 def Reesf():
     if Rees >= south_average:
         print("Above")
+        print("Rees has " + str(Rees) + " and there region average is " + str(south_average))
+
 
     else:
         print("Below")
+        print("Rees has " + str(Rees) + " and there region average is " + str(south_average))
 
 def Morganf():
     if Morgan >= south_average:
         print("Above")
+        print("Morgan has " + str(Morgan) + " and there region average is " + str(south_average))
+
 
     else:
         print("Below")
+        print("Morgan has " + str(Morgan) + " and there region average is " + str(south_average))
+
 
 def Mclenczykf():
     if Malenczyk >= south_average:
         print("Above")
+        print("Mclenczykf has " + str(Malenczyk) + " and there region average is " + str(south_average))
+
 
     else:
         print("Below")
+        print("Mclenczykf has " + str(Malenczyk) + " and there region average is " + str(south_average))
+
 
 def Kirbyf():
     if Kirby >= south_average:
         print("Above")
+        print("Kirby has " + str(Malenczyk) + " and there region average is " + str(south_average))
+
 
     else:
         print("Below")
+        print("Kirby has " + str(Malenczyk) + " and there region average is " + str(south_average))
 
 def Nunezf():
     if Nunez >= south_average:
         print("Above")
+        print("Nunez has " + str(Nunez) + " and there region average is " + str(south_average))
 
     else:
         print("Below")
+        print("Nunez has " + str(Nunez) + " and there region average is " + str(south_average))
 
 def Sweetf():
     if Sweet >= south_average:
         print("Above")
+        print("Sweet has " + str(Sweet) + " and there region average is " + str(south_average))
 
     else:
         print("Below")
+        print("Sweet has " + str(Sweet) + " and there region average is " + str(south_average))
 
 
 # --------------------------------------------------------------------------------------------------------------
@@ -303,44 +358,59 @@ def west():
 def Edwardsf():
     if Edwards >= west_avrage:
         print("Above")
+        print("Edwards has " + str(Edwards) + " and there region average is " + str(west_avrage))
 
     else:
         print("Below")
+        print("Edwards has " + str(Edwards) + " and there region average is " + str(west_avrage))
 
 def Thomasf():
     if Thomas >= west_avrage:
         print("Above")
+        print("Thomas has " + str(Thomas) + " and there region average is " + str(west_avrage))
 
     else:
         print("Below")
+        print("Thomas has " + str(Thomas) + " and there region average is " + str(west_avrage))
 
 def Brayf():
     if Bray >= west_avrage:
         print("Above")
+        print("Bray has " + str(Bray) + " and there region average is " + str(west_avrage))
+
 
     else:
         print("Below")
+        print("Bray has " + str(Bray) + " and there region average is " + str(west_avrage))
 
 def Alstonf():
     if Alston >= west_avrage:
         print("Above")
+        print("Alston has " + str(Alston) + " and there region average is " + str(west_avrage))
 
     else:
         print("Below")
+        print("Alston has " + str(Alston) + " and there region average is " + str(west_avrage))
+
 
 def Wuf():
     if Wu >= west_avrage:
         print("Above")
+        print("Wu has " + str(Wu) + " and there region average is " + str(west_avrage))
+
 
     else:
         print("Below")
+        print("Wu has " + str(Wu) + " and there region average is " + str(west_avrage))
 
 def Pennf():
     if Penn >= west_avrage:
         print("Above")
+        print("Penn has " + str(Penn) + " and there region average is " + str(west_avrage))
 
     else:
         print("Below")
+        print("Penn has " + str(Penn) + " and there region average is " + str(west_avrage))
 
 
 # --------------------------------------------------------------------------------------------------------------
@@ -375,37 +445,48 @@ def middle():
 def Storeyf():
     if Storey >= middle_average:
         print("Above")
+        print("Storey has " + str(Storey) + " and there region average is " + str(middle_average))
 
     else:
         print("Below")
+        print("Storey has " + str(Storey) + " and there region average is " + str(middle_average))
 
 def Millerf():
     if Miller >= middle_average:
         print("Above")
+        print("Miler has " + str(Storey) + " and there region average is " + str(middle_average))
 
     else:
         print("Below")
+        print("Miler has " + str(Storey) + " and there region average is " + str(middle_average))
 
 def Allanf():
     if Allan >= middle_average:
         print("Above")
+        print("Allan has " + str(Allan) + " and there region average is " + str(middle_average))
 
     else:
         print("Below")
+        print("Allan has " + str(Allan) + " and there region average is " + str(middle_average))
 
 def Travisf():
     if Travis >= middle_average:
         print("Above")
+        print("Travis has " + str(Travis) + " and there region average is " + str(middle_average))
+
 
     else:
         print("Below")
+        print("Travis has " + str(Travis) + " and there region average is " + str(middle_average))
 
 def Clemonsf():
     if Clemons >= middle_average:
         print("Above")
+        print("Clemons has " + str(Clemons) + " and there region average is " + str(middle_average))
 
     else:
         print("Below")
+        print("Clemons has " + str(Clemons) + " and there region average is " + str(middle_average))
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -432,7 +513,7 @@ def month2f ():
     df_sum2 = sum(df_sum1)
     print(df_sum2)
 
-def month3():
+def month3f():
     month3 = df[['02/03/2021', '03/03/2021', '04/03/2021', '05/03/2021', '06/03/2021',
                  '07/03/2021', '08/03/2021', '09/03/2021', '10/03/2021', '11/03/2021',
                  '12/03/2021','13/03/2021','14/03/2021', '15/03/2021', '16/03/2021',
@@ -467,24 +548,136 @@ plt.xlabel("Months")
 plt.ylabel("Numbers")
 plt.title("Best Performing Months")
 plt.show()
-print("---Main Menue----")
-print("What would you like to look at?")
-Question1 = input("Weather Indivual Salesmen are above or belowe there regons avrage(1), Avrage For each region(2), How each month performs(3): ")
 
-if Question1 == "1":
-    saleschose = input("Pick a salesman: ")
+def mainmen():
+        print("---Main Menue----")
+        print("What would you like to look at?")
+        Question1 = input("Weather Indivual Salesmen are above or belowe there regons avrage(1), Avrage For each region(2), How each month performs(3): ")
 
-
-
-
+        if Question1 == "1":
+            saleschose = input("Pick a salesman: ")
 
 
+            if saleschose == "James":
+                Jamesf()
+
+            elif saleschose == "Thomas":
+                Thomasf()
+
+            elif saleschose == "Cartwright":
+                Cartwrightf()
+
+            elif saleschose == "Allison":
+                Allisonf()
+
+            elif saleschose == "Battle":
+                Battlef()
+
+            elif saleschose == "Lennon":
+                Lennonf()
+
+            elif saleschose == "Benitez":
+                Battlef()
+
+            elif saleschose == "Voyle":
+                Voylef()
+
+            elif saleschose == "Osman":
+                Osmanf()
+
+            elif saleschose == "Weir":
+                Weirf()
+
+            elif saleschose == "Rhodes":
+                Rhodesf()
+
+            elif saleschose == "Sharples":
+                Sharplesf()
+
+            elif saleschose == "Rees":
+                Reesf()
+
+            elif saleschose == "Morgan":
+                Morganf()
+
+            elif saleschose == "Malenczyk":
+                Mclenczykf()
+
+            elif saleschose == "Kirby":
+                Kirbyf()
+
+            elif saleschose == "Nunez":
+                Nunezf()
+
+            elif saleschose == "Sweet":
+                Sweetf()
+
+            elif saleschose == "Edwards":
+                Edwardsf()
+
+            elif saleschose == "Thomas":
+                Thomasf()
+
+            elif saleschose == "Bray":
+                Brayf()
+
+            elif saleschose == "Alston":
+                Alstonf()
+
+            elif saleschose == "Wu":
+                Wuf()
+
+            elif saleschose == "Penn":
+                Pennf()
+
+            elif saleschose == "Clemons":
+                Clemonsf()
+
+            elif saleschose == "Travis":
+                Travisf()
+
+            elif saleschose == "Allan":
+                Allanf()
+
+            elif saleschose == "Miller":
+                Millerf()
+
+            elif saleschose == "Storey":
+                Storeyf()
+
+            elif saleschose != database:
+                print("Invalid Input Restart Program")
+
+            else:
+                print("может быть неэффективно, но это работает (:")
+
+        if Question1 == "2":
+            print("London :")
+            london()
+            print("Wales :")
+            wales()
+            print("West-Middlands :")
+            middle()
+            print("South-West :")
+            west()
+            print("South-East :")
+            south()
+
+        if Question1 == "3":
+            print("Month 1: ")
+            month1f()
+            print("Month 2: ")
+            month2f()
+            print("Month 3: ")
+            month3f()
+
+        Question2 = input("Return to Maim Menue? (Y/N): ")
+
+        if Question2 == "Y":
+            mainmen()
+
+        else:
+            exit()
 
 
-
-
-
-
-
-
-
+mainmen()
